@@ -1,0 +1,11 @@
+.git
+.gitignore
+.env
+.env.*
+config.php
+*.pem
+*.key
+*.crt
+Dockerfile.bak
+__pycache__
+public/check.php
