@@ -13,6 +13,7 @@ RUN sed -i 's#DocumentRoot /var/www/html#DocumentRoot /var/www/html/public#' /et
     && printf '<Directory /var/www/html/public>\nOptions -Indexes\nAllowOverride All\nRequire all granted\n</Directory>\n' > /etc/apache2/conf-available/newsdesk.conf \
     && a2enconf newsdesk \
     && rm -f /var/www/html/public/check.php \
+    && mkdir -p /var/www/html/public/uploads \
     && chown -R www-data:www-data /var/www/html/public/uploads
 
 EXPOSE 10000
