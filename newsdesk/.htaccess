@@ -1,0 +1,6 @@
+# Root folder: only public/ should be visited. index.php below forwards visitors there.
+DirectoryIndex index.php
+Options -Indexes
+<FilesMatch "^(config\.php|config\.example\.php|README\.md|\.gitignore)$">
+  Require all denied
+</FilesMatch>

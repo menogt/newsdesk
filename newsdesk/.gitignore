@@ -1,0 +1,3 @@
+config.php
+public/uploads/articles/*
+!public/uploads/articles/.gitkeep
