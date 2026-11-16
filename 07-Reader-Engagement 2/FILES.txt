@@ -1,0 +1,11 @@
+07-Reader-Engagement — assigned project files
+
+Copy the contents of the newsdesk folder into the repository's newsdesk folder.
+Keep the same paths. Each file in this pack belongs to this member's assigned area.
+
+newsdesk/app/actions/reader.php
+newsdesk/views/admin/comments.php
+newsdesk/views/site/feed.php
+newsdesk/views/site/following.php
+newsdesk/views/site/notifications.php
+newsdesk/views/site/saved.php
