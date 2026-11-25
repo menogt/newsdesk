@@ -103,11 +103,3 @@ With the site running on a fresh import of `demo.sql`:
 pip install requests
 python tools/qa_tests.py http://localhost/newsdesk/public
 ```
-
-## Team checklist before submission
-
-- [ ] Fill in team leader contact details and member names/roles in the report
-- [ ] Each member commits their own part to GitHub (the brief marks commit history)
-- [ ] Live hosted link works from a phone on mobile data
-- [ ] Screenshots of admin and student pages taken from the live site
-- [ ] Video: login, admin panel, student panel, CRUD, database changes in phpMyAdmin, each member explaining their part
